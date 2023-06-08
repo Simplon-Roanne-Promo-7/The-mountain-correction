@@ -1,0 +1,55 @@
+h1,h2,h3,h4,h5 {
+    font-family: 'rokkitt';
+}
+h1 {
+    font-size: 3.5rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+
+
+p,span,a,button {
+    font-family: 'Roboto';
+}
+
+
+#home{
+    background-image: url('../images/bg_header.jpg');
+    background-size: cover;
+}
+
+
+#about{
+    background-image: url('../images/bg_nuage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-opacity{
+    background-color: #00aaff55;
+}
+
+#history{
+    background-image: url('../images/bg_appareil_photo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#photos{
+    background-color: #b9b9b9;
+}
+
+#contact{
+    background-image: url('../images/bg_newsletter.jpg');
+}
+
+#contact > div{
+    background-color: #0006;
+}
+
+.scroll-to-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
